@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+
+.nevbar{
+    display: flex;
+    /* justify-content: space-evenly;*/
+    align-items: center;
+    height: 70px;
+    background-color: black;
+}
+
+.nev_logo{
+    margin-left: 20px;
+    background-image: url(images/logo.png);
+    background-size: contain;
+    color: white;
+    height: 40px;
+    width: 40px;
+}
+
+.home-button {
+    background-image: url(images/hom.png);
+    background-size: cover;
+    margin-left: 20px;
+    background-color: #1f1f1f;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.search_bar{
+    height: 50px;
+    width: 550px;
+    margin-left: 15px;
+    border-radius: 50px;
+    background-color: #1f1f1f;
+    display: flex;
+}
+
+.search_input{
+    width: 470px;
+    border-radius: 50px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    text-align: center;margin-left: 10px;
+    
+}.search_icon{
+    margin-left: 20px;
+    margin-top: 12px;
+    font-size: 25px;
+    color: white;
+}
+.browse{
+    margin-right: 15px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: white;
+}
+
+.anchor{
+    padding-left: 120px;
+}
+.Premium{
+    background-color: black;
+    border: none;
+    font-size: large;
+    color: #b3b3b3;
+}
+.Premium:hover{
+    color: white;
+    font-size: 20px ;
+}
+.Support{
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    font-size: large;
+    color: #b3b3b3;
+}
+.Support:hover{
+    color: white;
+    font-size: 20px ;
+}
+.Download{
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    font-size: large;
+    color: #b3b3b3;
+}
+.Download:hover{
+    color: white;
+    font-size: 20px ;
+}
+.Line{
+    margin-left: 15px;
+    background-color: black;
+    border: none;
+    font-size: xx-large;
+    color: #b3b3b3;
+}
+.install{
+    margin-top: 10px;
+}
+.icon{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #b3b3b3;
+}
+.icon:hover{
+    color: white;
+    font-size: 16px ;
+}
+.signup{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 15px;
+    color: #b3b3b3;
+    background-color: black;
+    border: none;
+}
+.signup:hover{
+    color: white;
+    font-size: 16px ;
+}
+.login{
+    margin-top: 5px;
+    margin-left: 20PX;
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border-radius: 50px;
+}
+.log_par{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+.body_containers{
+    display: flex;
+    background-color: black;
+}
+.left_cont{
+    margin: 10px;
+    border-radius: 15px;
+    height: 480px;
+    width: 469px;
+     background-color: #1a1a1a;
+    overflow: auto;
+}
+
+.left_cont::-webkit-scrollbar{
+    background-color: transparent;
+    border-radius: 15px;
+}
+.left_cont::-webkit-scrollbar-thumb:hover{
+    background-color: #1f1f1f;
+    border-radius: 15px;
+}
+.right_cont{
+    margin: 10px;
+    border-radius: 15px;
+    height: 480px;
+    width: 950px;
+    background-color: #1a1a1a;
+    overflow: auto;
+}
+.left_head{
+    margin-top: 25px;
+}
+.Library{
+    justify-content: center;
+    color: #b3b3b3;
+    font-size: large;
+   margin-top: 30px;
+   margin-left: 15px;
+}
+.plus{
+    background-color: #1a1a1a;
+    border: none;
+    color: #b3b3b3;
+    font-size: large;
+    margin-left: 220px;
+}
+.plus:hover{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: rgb(80, 79, 79);
+}
+
+.left_first_cont{
+    height: 140px;
+    width: 400px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.first_text{
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    font-size: large;
+}
+.secound_text{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 15px;
+    margin-left: 20px;
+}
+.creat{
+    height: 30px;
+    width: 130px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.text{
+        font-size: 15px;
+        padding: 14px;
+        padding-bottom: 0px;
+        margin-top: 20px;
+}
+.left_secound_cont{
+    height: 140px;
+    width: 400px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.first_sec_text{
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    font-size: large;
+}
+.secound_sec_text{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 15px;
+    margin-left: 20px;
+}
+.creat_sec{
+    height: 30px;
+    width: 150px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 10px;
+    padding-top: 10px;
+}
+.text_sec{
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.left_third_cont{
+    height: 180px;
+    width: 469px;
+    background-color: #1f1f1f;
+}
+.a_tag{
+    color: white;
+    font-size: x-large;
+    padding-left: 20px;
+}
+.right_head{
+    margin-top: 20px;
+}
+.show_tag{
+    color: #b3b3b3;
+    text-decoration: none;
+    margin-left: 600px;
+}
+.show_tag:hover{
+    text-decoration: underline;
+}
+.artists{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.ar_box{
+    background-size: cover;
+    margin-left: 20px;
+    
+}
+.artists :hover{
+    box-shadow: 0px 10px 20px 0px #3a3a3a;
+    border: none;
+
+}
+.ar_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+}
+.ar_name{
+    color: white;
+    margin-left: 10px;
+}
+.ar_name:hover{
+    text-decoration: underline;
+}
+#profession{
+    color: #b3b3b3;
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Popular{
+    margin-top: 40px;
+}
+.p_a_tag{
+    color: white;
+    font-size: x-large;
+    padding-left: 20px;
+}
+.p_show_tag{
+    color: #b3b3b3;
+    text-decoration: none;
+    margin-left: 450px;
+}
+.p_show_tag:hover{
+    text-decoration: underline;
+}
+.p_artists{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.p_artists :hover{
+    box-shadow: 0px 10px 20px 0px #3a3a3a;
+    border: none;
+
+}
+.p_ar_img{
+    height: 150px;
+    width: 150px;
+    border-radius: 5px;
+}
+.p_ar_name{
+    color: white;
+    margin-top: 5px;
+}
+.p_ar_name:hover{
+    text-decoration: underline;
+}
+
+#p_profession{
+    color: #b3b3b3;
+    font-size: small;
+    margin-top: 5px;
+}
+.right_cont::-webkit-scrollbar{
+    background-color: transparent;
+    scroll-behavior: smooth;
+}
+.right_cont::-webkit-scrollbar-thumb:hover{
+   background-color: #3a3a3a;
+   border-radius: 15px;
+   scroll-behavior: smooth;
+}
+.pr_show_tag{
+    color: #b3b3b3;
+    text-decoration: none;
+    margin-left: 590px;
+}
+.h_show_tag{
+    color: #b3b3b3;
+    text-decoration: none;
+    margin-left: 640px;
+}
+.right_footer{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right_footer a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+#fp{
+    color: #b3b3b3;
+    margin-top: 10px;
+}
+#fp:hover{
+    text-decoration: underline;
+}
+.right_footer i{
+    color: white;
+}
+#lines{
+    color: #b3b3b3;
+    padding: 30px;
+    margin-left: 10px;  
+}
+.copy{
+    display: flex;
+    padding: 20px;
+    margin-left: 40px;
+    color: #b3b3b3;
+}
+.last_Div{
+    height: 14.5vw;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.gradient{
+    height: 55px;
+    width: 98%;
+    background-image: linear-gradient(90deg,#af2896,#509bf5);
+    display: flex;
+    align-items: center;
+}
+.gleft{
+    height: 50px;
+    width: 40px;
+    padding-right: 80%;
+}
+#gp{
+    color: white;
+    width: 200px;
+    margin-left: 30px;
+    font-size: small;
+    margin-top: 10px
+}
+
+#gp2{
+    color: white;
+    width: 800px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.gright{
+    margin-left: 50px;
+    height: 46px;
+    width: 150px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+}
+.gright:hover{
+    background-color: #e4e4e4;
+}
+#gbutton:hover{
+    background-color: #e4e4e4;
+}
+#gbutton{
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
